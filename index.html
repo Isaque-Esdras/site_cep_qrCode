@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+    crossorigin=""/>
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+    integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+    crossorigin=""></script>
+    <link rel="stylesheet" href="./index.css">
+    <title>Buscador de CEP</title>
+</head>
+<body>
+
+    
+    <main id="mainPrincipal">
+        
+            <header id="header-pagCep"> <img src="./imagens/mapa (1).png" alt=""><div>BR-a</div></header>
+           
+            <div id="but-criar-qr">
+            <button id="but-criar-qrCode" onclick="pagQr()">Criar Qr-Code</button>
+            </div>
+
+        <h2 id="tex-pag">Busque um Cep, saiba sua Localização pelo Mapa e ainda se precisar, 
+            crie um Qr-Code aqui mesmo no site !</h2>
+        
+        
+
+        <article id="article-central">
+            <section id="section-central">
+            <div id="div-brImg">
+               <img src="./imagens/brasil (1).png" alt="" id="img-Br">
+            </div>
+
+            <div id="div-cepInput">
+                <h3 id="buscar-cep">Buscar CEP:</h3>
+                <input type="text" id="input-cep" placeholder="Digite o CEP...">
+                <button id="but-input"> <img src="./imagens/lupa (4).png" alt=""></button>
+            </div>
+            </section>
+        </article>
+        <article id="article-informacoes">
+            
+            <section id="section-informacoes">
+            <div id="div-infoCep">
+
+               
+                
+                <h3 id="logradouro"></h3>
+
+                
+                <h3 id="bairro"></h3>
+
+                
+                <h3 id="cidade"></h3>
+
+                
+                <h3 id="estado"></h3>
+
+              
+            </div>
+        </section>
+
+        <h2 id="longlati"></h2>
+        <div id="map"></div>
+
+        </article>
+
+
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Gerar Qr-Code</title>
+</head>
+<body>
+    <main id="main-qr">
+
+       
+        <article id="article-qr-centra">
+
+          
+            <section id="section-qr">
+                <header id="header-qr">Cole seu Link e Gere seu Qr-Code !</header>
+            </section>
+
+            <aside id="aside-qr-code">
+                Código QR é um código de barras, que pode ser facilmente escaneado usando a maioria
+                dos telefones celulares equipados com câmera. 
+            </aside>
+
+            <section id="section-qr-central">
+                <img src="" alt="" id="qr-code-image">
+                <input type="text" id="input-qr" placeholder="Cole o link aqui...">
+                <button id="but-qr-code" onclick="gerarQr()">GERAR</button>
+            </section>
+            
+
+        </article>
+
+    </main>
+</body>
+</html>

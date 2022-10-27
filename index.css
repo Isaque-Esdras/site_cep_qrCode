@@ -1,0 +1,251 @@
+#section-central{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+body{
+    background: linear-gradient(#0047AB, #6495ED);
+    height: 100%;
+    margin: 0%;
+}
+
+#input-cep{
+    
+   
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    width: 350px;
+    outline: none;
+    font-size: 19pt;
+}
+
+#but-input{
+    background:transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 2s;
+}
+
+#but-input:hover{
+    transform: scale(1.6);
+}
+
+#but-senha{
+    background:transparent;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    font-size: 13pt;
+}
+
+#but-cpf{
+    background:transparent;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    font-size: 13pt;
+}
+
+#but-criar-qr{
+    display:flex;
+    justify-content: end;
+    margin: 10px;
+}
+
+#but-criar-qrCode{
+    background-color: #24ff5f;
+    color: rgb(0, 0, 0);
+    border-radius: 9px;
+    border: none;
+    padding: 6px;
+    font-family: monospace;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#header-pagCep{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    margin: 0%;
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 20pt;
+}
+
+#tex-pag{
+    font-family: monospace;
+    font-size: 26pt;
+    color: white;
+    padding: 30px;
+    animation: titulo 2s;
+    
+}
+
+#div-infoCep{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+@keyframes titulo {
+    from{
+        transform: rotateX(90deg) ;
+    }to{
+        transform: rotate(0deg) ;
+    }
+}
+
+
+#buscar-cep{
+    color: white;
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+    
+@media screen and (max-width:680px) {
+
+    
+    #img-Br{
+        width: 100px;
+    }
+
+    #input-cep{
+        padding: 0;
+        width: 230px;
+    }
+
+    body{
+        padding: 0%;
+        margin: 0%;
+        width: auto;
+    }
+
+    #div-infoCep{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        justify-items: left;
+        justify-content: left;
+        padding: 10px;
+        align-items: left;
+    }
+}
+
+
+#article-qr-centra{
+    height: 50%;
+    background: linear-gradient( #000000, rgb(118, 118, 120));
+}
+
+body{
+    background-color: #000000;
+}
+
+#header-qr{
+    font-size: 26pt;
+    font-family: cursive;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(247, 255, 242);
+}
+
+#section-qr-central{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 80px;
+}
+
+#but-qr-code{
+    margin-top: 7px;
+    border: none;
+    background-color: #04eb41;
+    color: rgb(0, 0, 0);
+    border-radius: 9px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#but-qr-code:hover{
+    background: #8EE53F	;
+}
+
+#input-qr{
+    width: 320px;
+    border: 1px solid rgb(15, 41, 242);
+    padding: 9px;
+    border-radius: 6px;
+    outline: none;
+    margin-top: 10px;
+}
+
+#aside-qr-code{
+
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  margin: 9px;
+  font-size: 19pt;
+  background-color: aliceblue;
+}
+
+
+
+
+
+@media screen and (max-width:680px) {
+    
+    #input-qr{
+        width: 250px;
+        padding: 10px;
+    }
+
+    #header-qr{
+        font-size: 21pt;
+    }
+
+    #article-qr-centra{
+        width: 100%;
+        margin: 0%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+
+    }
+    
+
+    
+}
+
+#map{
+    height: 200px;
+    width: 100%;
+    
+}
+
+#longlati{
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+}
