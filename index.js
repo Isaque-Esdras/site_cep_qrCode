@@ -65,3 +65,7 @@ var posicaoUsuario = navigator.geolocation.watchPosition(sucesso, erro,{
 pagQr = () =>{
     window.location.href = '#section-qr-central'
 }
+
+lgpd = () =>{
+    window.location.href = './Politica de Privacidade/lgpd.html'
+}
