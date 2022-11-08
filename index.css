@@ -21,9 +21,12 @@ body{
     font-size: 19pt;
 }
 
+
+
 #but-input{
-    background:transparent;
-    border: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    border: 1px solid white;
     color: rgb(255, 255, 255);
     cursor: pointer;
     transition: 2s;
@@ -149,6 +152,8 @@ h3{
     #nome-pag{
         font-size: 18pt;
         display: block;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: 25pt;
     }
 
 
@@ -266,7 +271,7 @@ body{
 }
 
 #map{
-    height: 200px;
+    height: 220px;
     width: 100%;
     
 }
@@ -298,21 +303,7 @@ body{
     justify-content: space-evenly;
 }
 
-#titulo-parte-videos{
-    
-    background-color: black;
-    color: white;
-    font-size: 36pt;
-    padding: 6px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 8px;
 
-    
-}
+   
 
-@media screen and (max-width:680px) {
-    #titulo-parte-videos{
-        width: 400px;
-        font-size: 26pt;
-    }
-}
+   
