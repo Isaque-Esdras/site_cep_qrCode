@@ -317,6 +317,7 @@ body{
 #header-amazonia{
     font-size: 32pt;
     background: linear-gradient(green, rgb(57, 222, 57));
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #div-amazonia-um{
@@ -363,6 +364,9 @@ body{
 #paragrafo-amazonia-dois{
     background-color: white;
     border-radius: 8px;
+    width: 700px;
+    padding: 5px;
+    text-align: justify;
 }
 
 #div-amazonia-dois{
@@ -374,5 +378,22 @@ body{
     justify-content: space-evenly;
     padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18pt;
+}
+
+#div-amazonia-demarcacao{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#paragrafo-amazonia-demarcacao{
+    width: 700px;
+    height: 280px;
+    text-align: justify;
     font-size: 18pt;
 }
