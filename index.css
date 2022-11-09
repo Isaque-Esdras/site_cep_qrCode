@@ -343,10 +343,7 @@ body{
     padding: 5px;
 }
 
-#div-amazonia-um{
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 18pt;
-}
+
 
 
 @media screen and (max-width:680){
@@ -361,4 +358,21 @@ body{
         width: 400px;
         text-align: justify;
     }
+}
+
+#paragrafo-amazonia-dois{
+    background-color: white;
+    border-radius: 8px;
+}
+
+#div-amazonia-dois{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18pt;
 }
