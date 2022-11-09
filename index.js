@@ -69,3 +69,7 @@ pagQr = () =>{
 lgpd = () =>{
     window.location.href = './Politica de Privacidade/lgpd.html'
 }
+
+butAmazonia = () =>{
+    window.location.href = '#article-amazonia'
+}

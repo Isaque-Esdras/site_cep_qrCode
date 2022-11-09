@@ -64,9 +64,11 @@ body{
     border-radius: 9px;
     border: none;
     padding: 6px;
-    font-family: monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     cursor: pointer;
+    font-size: 12pt;
+    width: 200px;
 }
 
 #but-criar-qrCode:hover{
@@ -264,7 +266,7 @@ body{
         justify-content: center;
         justify-items: center;
         align-items: center;
-
+        
     }
     
     
@@ -379,21 +381,142 @@ body{
     padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18pt;
+
 }
 
 #div-amazonia-demarcacao{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: black;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    
+}
+
+#header-demarcacao-amazonia{
+    font-size: 20pt;
+    width: 400px;
+}
+
+#item-demarcacao-amazonia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
 
 #paragrafo-amazonia-demarcacao{
     width: 700px;
-    height: 280px;
     text-align: justify;
     font-size: 18pt;
+    border: 1px solid greenyellow;
+    border-radius: 8px;
+    padding: 10px;
 }
+
+
+#header-amazonia-um{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    width: 600px;
+    border-radius: 8px;
+    font-size: 20pt;
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+    
+}
+
+#header-amazonia-dois{
+    
+    margin-top: 15px;
+    border-radius: 8px;
+    font-size: 20pt;
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 20pt;
+}
+
+#header-interno-pdois{
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    width: 600px;
+    font-size: 21pt;
+}
+
+#header-demarcacao-um{
+    font-size: 26pt;
+    margin: 0;
+    padding: 0;
+}
+
+#botao-amazonia{
+    display:flex;
+    justify-content: end;
+    margin: 10px;
+}
+
+#but-amazonia{
+    background-color: #24ff5f;
+    color: rgb(0, 0, 0);
+    border-radius: 9px;
+    border: none;
+    padding: 6px;
+    font-family: monospace;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+}
+
+#but-amazonia:hover{
+    background-color: #04eb41;
+}
+
+@media screen and (max-width:680px) {
+    #paragrafo-amazonia-demarcacao{
+        width: 400px;
+    }
+
+    #header-amazonia-um{
+        width: 380px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 22pt;
+      
+    }
+
+    #header-interno-pdois{
+        width: 380px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 22pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    #div-amazonia-demarcacao{
+       margin-top: 10px;
+    }
+
+    #item-demarcacao-amazonia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
