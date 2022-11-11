@@ -9,7 +9,7 @@ butt_cep.addEventListener('click', () =>{
     let cep = inpute_cep.value
 
     if (cep.length !== 8) {
-        alert('Um CEP possui oito dígitos... Digite novamente !')
+        alert('Digite a quantidade de números suficiente ou remova o dígito (-).')
     }
 
     fetch(`https://viacep.com.br/ws/${cep}/json/`)
