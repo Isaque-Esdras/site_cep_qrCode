@@ -73,3 +73,27 @@ lgpd = () =>{
 butAmazonia = () =>{
     window.location.href = '#article-amazonia'
 }
+
+videoUm = () =>{
+    window.location.href = 'https://www.youtube.com/watch?v=X3gvWKyZy_s'
+}
+
+videoDois = () =>{
+    window.location.href = 'https://www.youtube.com/watch?v=OODsSZ5KDnI'
+}
+
+videoTres = () =>{
+    window.location.href = 'https://www.youtube.com/watch?v=XpLoUmn4yG8'
+}
+
+videoQuatro = () =>{
+    window.location.href = 'https://www.youtube.com/watch?v=uQVOMoTNPAI'
+}
+
+videoCinco = () =>{
+    window.location.href = 'https://www.youtube.com/watch?v=XK2uVOiRQv8'
+}
+
+videoSeis = () =>{
+    window.location.href = 'https://www.youtube.com/watch?v=1RkUDzYeGjw'
+}
