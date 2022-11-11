@@ -38,7 +38,7 @@ function erro(error) {
 }
 
 function sucesso(position) {
-   console.log(position.coords.latitude, position.coords.longitude)
+  
    infoCordenadas.innerHTML = `Latitude: ${position.coords.latitude} <br> Longitude: ${position.coords.longitude}`
 
    var map = L.map('map').setView([position.coords.latitude, position.coords.longitude], 13);
