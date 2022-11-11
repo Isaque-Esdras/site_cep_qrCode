@@ -71,6 +71,7 @@ body{
     width: 200px;
 }
 
+
 #but-criar-qrCode:hover{
     background-color: #04eb41;
 }
@@ -283,7 +284,6 @@ body{
     width: 300px;
     margin: 10px;
     padding: 5px;
-    
 }
 
 #section-videos-parte-um{
@@ -517,6 +517,36 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    #imagem-video-um{
+        width: 100%;
+        height: auto;
+    }
+
+    #imagem-video-dois{
+        width: 100%;
+        height: auto;
+    }
+
+    #imagem-video-tres{
+        width: 100%;
+        height: auto;
+    }
+
+    #imagem-video-quatro{
+        width: 100%;
+        height: auto;
+    }
+
+    #imagem-video-cinco{
+        width: 100%;
+        height: auto;
+    }
+
+    #imagem-video-seis{
+        width: 100%;
+        height: auto;
     }
 }
 
