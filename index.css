@@ -128,6 +128,12 @@ h3{
     
     #img-Br{
         width: 100px;
+        height: auto;
+    }
+
+    #mapinha-no-header{
+        width: 40px;
+        height: auto;
     }
 
     #input-cep{
