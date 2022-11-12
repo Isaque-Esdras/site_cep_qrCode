@@ -475,7 +475,7 @@ body{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    width: 320px;
+    width: 380px;
     color: white;
     font-size: 16pt;
     text-align: justify;
@@ -488,7 +488,7 @@ body{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    width: 320px;
+    width: 380px;
     color: white;
     font-size: 16pt;
     text-align: justify;
@@ -501,7 +501,7 @@ body{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    width: 320px;
+    width: 380px;
     color: white;
     font-size: 16pt;
     text-align: justify;
@@ -514,7 +514,7 @@ body{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    width: 320px;
+    width: 380px;
     color: white;
     font-size: 16pt;
     text-align: justify;
@@ -527,7 +527,7 @@ body{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    width: 320px;
+    width: 380px;
     color: white;
     font-size: 16pt;
     text-align: justify;
@@ -540,7 +540,7 @@ body{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    width: 320px;
+    width: 380px;
     color: white;
     font-size: 16pt;
     text-align: justify;
@@ -590,32 +590,32 @@ body{
     }
 
     #imagem-video-um{
-        width: 100%;
+        width: 90%;
         height: auto;
     }
 
     #imagem-video-dois{
-        width: 100%;
+        width: 90%;
         height: auto;
     }
 
     #imagem-video-tres{
-        width: 100%;
+        width: 90%;
         height: auto;
     }
 
     #imagem-video-quatro{
-        width: 100%;
+        width: 90%;
         height: auto;
     }
 
     #imagem-video-cinco{
-        width: 100%;
+        width: 90%;
         height: auto;
     }
 
     #imagem-video-seis{
-        width: 100%;
+        width: 90%;
         height: auto;
     }
 
