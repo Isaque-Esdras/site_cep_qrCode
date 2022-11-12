@@ -470,6 +470,11 @@ body{
 }
 
 #text-video-um{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     width: 360px;
     color: white;
     font-size: 16pt;
@@ -478,6 +483,11 @@ body{
 }
 
 #text-video-dois{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     width: 360px;
     color: white;
     font-size: 16pt;
@@ -486,6 +496,11 @@ body{
 }
 
 #text-video-tres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     width: 360px;
     color: white;
     font-size: 16pt;
@@ -494,6 +509,11 @@ body{
 }
 
 #text-video-quatro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     width: 360px;
     color: white;
     font-size: 16pt;
@@ -502,6 +522,11 @@ body{
 }
 
 #text-video-cinco{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     width: 360px;
     color: white;
     font-size: 16pt;
@@ -510,6 +535,11 @@ body{
 }
 
 #text-video-seis{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     width: 360px;
     color: white;
     font-size: 16pt;
@@ -591,67 +621,101 @@ body{
 
 
     #text-video-um{
-        width: 450px;
-        color: white;
-        font-size: 16pt;
-        text-align: justify;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        color: white;
+        font-size: 18pt;
+        text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
     #text-video-dois{
-        width: 450px;
-        color: white;
-        font-size: 16pt;
-        text-align: justify;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        color: white;
+        font-size: 18pt;
+        text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     #text-video-tres{
-        width: 450px;
-        color: white;
-        font-size: 16pt;
-        text-align: justify;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        color: white;
+        font-size: 18pt;
+        text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     #text-video-quatro{
-        width: 450px;
-        color: white;
-        font-size: 16pt;
-        text-align: justify;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        color: white;
+        font-size: 18pt;
+        text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     #text-video-cinco{
-        width: 450px;
-        color: white;
-        font-size: 16pt;
-        text-align: justify;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        color: white;
+        font-size: 18pt;
+        text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     #text-video-seis{
-        width: 450px;
-        color: white;
-        font-size: 16pt;
-        text-align: justify;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        color: white;
+        font-size: 18pt;
+        text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
     #hearder-videos-article-videos{
         text-align: justify;
     }
+
+    #section-videos-parte-um{
+        padding: 10px;
+    }
+
+    #section-videos-parte-dois{
+        padding: 10px;
+    }
+
+
 }
 
