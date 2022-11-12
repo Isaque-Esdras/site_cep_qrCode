@@ -590,32 +590,32 @@ body{
     }
 
     #imagem-video-um{
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 
     #imagem-video-dois{
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 
     #imagem-video-tres{
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 
     #imagem-video-quatro{
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 
     #imagem-video-cinco{
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 
     #imagem-video-seis{
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 
@@ -708,13 +708,7 @@ body{
         text-align: justify;
     }
 
-    #section-videos-parte-um{
-        padding: 10px;
-    }
-
-    #section-videos-parte-dois{
-        padding: 10px;
-    }
+    
 
 
 }
