@@ -274,7 +274,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 10px;
+    
 }
 
 #article-videos{
@@ -286,7 +286,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 10px;
+    
 }
 
 
@@ -475,7 +475,7 @@ body{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    width: 360px;
+    width: 320px;
     color: white;
     font-size: 16pt;
     text-align: justify;
@@ -488,7 +488,7 @@ body{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    width: 360px;
+    width: 320px;
     color: white;
     font-size: 16pt;
     text-align: justify;
@@ -501,7 +501,7 @@ body{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    width: 360px;
+    width: 320px;
     color: white;
     font-size: 16pt;
     text-align: justify;
@@ -514,7 +514,7 @@ body{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    width: 360px;
+    width: 320px;
     color: white;
     font-size: 16pt;
     text-align: justify;
@@ -527,7 +527,7 @@ body{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    width: 360px;
+    width: 320px;
     color: white;
     font-size: 16pt;
     text-align: justify;
@@ -540,7 +540,7 @@ body{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    width: 360px;
+    width: 320px;
     color: white;
     font-size: 16pt;
     text-align: justify;
