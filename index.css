@@ -591,51 +591,67 @@ body{
 
 
     #text-video-um{
-        width: 500px;
+        width: 450px;
         color: white;
         font-size: 16pt;
         text-align: justify;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     #text-video-dois{
-        width: 500px;
+        width: 450px;
         color: white;
         font-size: 16pt;
         text-align: justify;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-wrap: wrap;
     }
     
     #text-video-tres{
-        width: 500px;
+        width: 450px;
         color: white;
         font-size: 16pt;
         text-align: justify;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-wrap: wrap;
     }
     
     #text-video-quatro{
-        width: 500px;
+        width: 450px;
         color: white;
         font-size: 16pt;
         text-align: justify;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-wrap: wrap;
     }
     
     #text-video-cinco{
-        width: 500px;
+        width: 450px;
         color: white;
         font-size: 16pt;
         text-align: justify;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-wrap: wrap;
     }
     
     #text-video-seis{
-        width: 500px;
+        width: 450px;
         color: white;
         font-size: 16pt;
         text-align: justify;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #hearder-videos-article-videos{
+        text-align: justify;
     }
 }
 
