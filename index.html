@@ -10,8 +10,9 @@
 
     <style>
         body{
-            background-image: url(./imagens/mapa.webp);
+            background-image: url(./imagens/satelitemap.webp);
             padding: 0;
+            margin: 0;
         }
 
         #article-amazonia{
@@ -27,7 +28,7 @@
     <main id="mainPrincipal">
 
         
-            <header id="header-pagCep"> <img src="./imagens/mapa (1).png" alt="" width="40px" height="40" id="mapinha-no-header"><div id="nome-pag">Cep-Busque</div></header>
+            <header id="header-pagCep"> <img src="./imagens/mapa(1).png" alt="" width="40px" height="40" id="mapinha-no-header"><div id="nome-pag">Cep-Busque</div></header>
             <button id="lgpd" onclick="lgpd()">POLÍTICA DE PRIVACIDADE</button>
 
             <div id="but-criar-qr">
@@ -43,14 +44,11 @@
             
         <article id="article-central">
             <section id="section-central">
-            <div id="div-brImg">
-               <img src="./imagens/brazil.png" alt="" id="img-Br" width="120px" height="120">
-            </div>
    
             <div id="div-cepInput">
                 <h2 id="buscar-cep">Buscar CEP:</h2>
                 <input type="text" id="input-cep" placeholder="Digite o CEP...">
-                <button id="but-input"> <img src="./imagens/lupa (4).png" alt="" width="25px" height="25px">.</button>
+                <button id="but-input"> <img src="./imagens/search.png" alt="" width="25px" height="25px">.</button>
             </div>
             </section>
         </article>
@@ -82,29 +80,30 @@
         </article>
 
         <article id="article-videos">
+            <header id="hearder-videos-article-videos">° Info Mapas, Gps, Satélite <img src="./imagens/satelite.png" alt=""> Sobre Localizações</header>
             
             <section id="section-videos-parte-um">
 
                 <div id="video-um">
-                    <header style="color: white; font-size: 20pt; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; width: 320px;"> <strong>GPS PARA MOTORISTAS, COM GOOGLE MAPS.</strong></header>
-                    <img src="./imagens/image1.webp" alt="" width="300px" height="200px" style="cursor: pointer;" id="imagem-video-um" onclick="videoUm()" loading="lazy">
-                    <p style="width: 320px; color: white; font-size: 16pt; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: justify;">O Google Maps é hoje o melhor mapa para quem precisa de um guia para se situar pela Cidade, o Google Maps
+                    <header style="color: white; font-size: 20pt; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; width: 320px; text-align: justify;"> <strong>GPS PARA MOTORISTAS, COM GOOGLE MAPS.</strong></header>
+                    <img src="./imagens/videoum.webp" alt="" width="360px" height="200px" style="cursor: pointer;" id="imagem-video-um" onclick="videoUm()" loading="lazy">
+                    <p id="text-video-um">O Google Maps é hoje o melhor mapa para quem precisa de um guia para se situar pela Cidade, o Google Maps
                     oferece aos Motoristas, a facilidade de se guiar no trânsito das capitais, observando em tempo real o tráfego das regiões por onde irá passar. Um trunfo desse avanço tecnológico é a capacidade com que o sistema cria linhas no Mapa para indicar se em determinado ponto da cidade está engarrado ou não, ou seja,
                 você consegue ter um norte melhor de por onde ir para se livrar de congestionamentos das rodovias. </p>
                 </div>
 
                 <div id="video-dois">
-                    <header style="color: white; font-size: 20pt; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; width: 320px;"> <strong>LOCALIZAÇÃO EM TEMPO REAL COM O WHATS-APP.</strong></header>
-                    <img src="./imagens/image6.webp" alt="" width="300px" height="200px" style="cursor: pointer;" id="imagem-video-dois" onclick="videoDois()" loading="lazy" >
-                    <p style="width: 320px; color: white; font-size: 16pt; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: justify;"> O WhatsApp possui atualmente a revolucionária capacidade tecnológica de saber onde estamos e nos permitir
+                    <header style="color: white; font-size: 20pt; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; width: 320px;  text-align: justify;" > <strong>LOCALIZAÇÃO EM TEMPO REAL COM O WHATS-APP.</strong></header>
+                    <img src="./imagens/videodois.webp" alt="" width="360px" height="200px" style="cursor: pointer;" id="imagem-video-dois" onclick="videoDois()" loading="lazy" >
+                    <p id="text-video-dois"> O WhatsApp possui atualmente a revolucionária capacidade tecnológica de saber onde estamos e nos permitir
                     acessar essa informação para que nos encontremos onde quer que estejemos. Essa funcionalidade é simplificada para o usuário, bastando que esse usuário apenas selecione as opções corretas para usurfruir da vantagem. Existe ainda a opção a mais fornecida pelo WhatsApp que é a opção de podermos enviar essa nossa localização atual para 
                     qualquer outra pessoa que também tenha o Aplicativo.</p>
                 </div>
 
                 <div id="video-tres">
-                    <header style="color: white; font-size: 20pt; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; width: 320px;"> <strong>GPS DO GOOGLE MAPS, COMO USAR.</strong></header>
-                    <img src="./imagens/image4.webp" alt="" width="300px" height="200px" style="cursor: pointer;" id="imagem-video-tres" onclick="videoTres()" loading="lazy">
-                    <p style="width: 320px; color: white; font-size: 16pt; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: justify;"> Após a pesquisa do nosso destino o Satélite automaticamente mapeia a área e traça nossa Rota, muitas vezes criando uma linha flexível
+                    <header style="color: white; font-size: 20pt; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; width: 320px;  text-align: justify;"> <strong>GPS DO GOOGLE MAPS, COMO USAR.</strong></header>
+                    <img src="./imagens/videotres.webp" alt=""width="360px" height="200px" style="cursor: pointer;" id="imagem-video-tres" onclick="videoTres()" loading="lazy">
+                    <p id="text-video-tres"> Após a pesquisa do nosso destino o Satélite automaticamente mapeia a área e traça nossa Rota, muitas vezes criando uma linha flexível
                          que indica o caminho a ser percorrido até o destino e uma seta que marca nossa localização enquanto avançamos no mapa. Incrivelmente, "uma voz que não é a de um Anjo", nos guiando pelo caminho, essa voz é de uma IA, Inteligência Artificial contida na tecnologia do Maps do Google. Além disso, ainda podemos contar com três linhas
                          indicativas no Mapa, cada uma com uma cor, indicando a situação do tráfego. </p>
                 </div>
@@ -114,24 +113,24 @@
             <section id="section-videos-parte-dois">
 
                 <div id="video-um-parte-dois">
-                    <header style="color: white; font-size: 20pt; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; width: 320px;"> <strong>COMO PESQUISAR UM DESTINO NO GPS</strong></header>
-                    <img src="./imagens/image2.webp" alt="" width="300px" height="200px" style="cursor: pointer;" id="imagem-video-quatro" onclick="videoQuatro()" loading="lazy">
-                    <p style="width: 320px; color: white; font-size: 16pt; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: justify;">O GPS do Google Maps foi desenvolvido para que nós usuários pudessemos com muita praticidade pesquisar tanto nossa localização atual, como também pudessemos pesquisar
+                    <header style="color: white; font-size: 20pt; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; width: 320px;  text-align: justify;"> <strong>COMO PESQUISAR UM DESTINO NO GPS</strong></header>
+                    <img src="./imagens/videoquatro.webp" alt="" width="360px" height="200px" style="cursor: pointer;" id="imagem-video-quatro" onclick="videoQuatro()" loading="lazy">
+                    <p id="text-video-quatro">O GPS do Google Maps foi desenvolvido para que nós usuários pudessemos com muita praticidade pesquisar tanto nossa localização atual, como também pudessemos pesquisar
                      a localização de nosso Destino, bastando que selecionemos a opção pesquisar e digitemos o nome do lugar para onde queremos ir. A pesquisa é muito rápida e nos é mostrado em seguida o nosso ponto de partida e o nosso ponto de destino, além de toda a rota que iremos percorrer.</p>
                 </div>
 
                 <div id="video-dois-parte-dois">
-                    <header style="color: white; font-size: 20pt; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; width: 320px;" onclick="videoCinco()"> <strong>LOCALIZAÇÃO ATUAL COM WHATS-APP</strong></header>
-                    <img src="./imagens/image3.webp" alt="" width="300px" height="200px" style="cursor: pointer;" id="imagem-video-cinco" onclick="videoCinco()" loading="lazy">
-                    <p style="width: 320px; color: white; font-size: 16pt; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: justify;">Diferente da Localização em tempo real, a Localização atual no WhatsApp não nos mostra em estado de movimento como no caso da localização em tempo real. A localização 
+                    <header style="color: white; font-size: 20pt; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; width: 320px;  text-align: justify;" onclick="videoCinco()"> <strong>LOCALIZAÇÃO ATUAL COM WHATS-APP</strong></header>
+                    <img src="./imagens/videocinco.webp" alt="" width="360px" height="200px" style="cursor: pointer;" id="imagem-video-cinco" onclick="videoCinco()" loading="lazy">
+                    <p id="text-video-cinco">Diferente da Localização em tempo real, a Localização atual no WhatsApp não nos mostra em estado de movimento como no caso da localização em tempo real. A localização 
                         atual no WP nos mostra em um ponto fixo a partir de onde vimos o mapa ou enviamos essa localização para uma outra pessoa via WhatsApp, ela é para aquele momento em que queremos saber onde estamos ou que outra pessoa saiba onde estamos, mas representando ao mesmo tempo uma certa certeza de que não saíremos dessa localização atual e que não nos movimentaremos 
                         tão cedo para algum outro lugar, serve para nos mostrar fixos em um determinado local. </p>
                 </div>
 
                 <div id="video-tres-parte-dois">
-                    <header style="color: white; font-size: 20pt; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; width: 320px;"><strong>OS TRÊS TIPOS DE MAPA DO GPS DO GOOGLE</strong></header>
-                    <img src="./imagens/image5.webp" alt="" width="300px" height="200px" style="cursor: pointer;" id="imagem-video-seis" onclick="videoSeis()" loading="lazy">
-                    <p style="width: 320px; color: white; font-size: 16pt; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: justify;">Eu também não sabia, mas o Google têm (3) três tipos de Mapa. O primeiro é o Mapa Padrão, o segundo é o Mapa Satélite e o terceiro é o Mapa Relevo. Claro que cada um com
+                    <header style="color: white; font-size: 20pt; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; width: 320px;  text-align: justify;"><strong>OS TRÊS TIPOS DE MAPA DO GPS DO GOOGLE</strong></header>
+                    <img src="./imagens/videoseis.webp" alt="" width="360px" height="200px" style="cursor: pointer;" id="imagem-video-seis" onclick="videoSeis()" loading="lazy">
+                    <p id="text-video-seis">Eu também não sabia, mas o Google têm (3) três tipos de Mapa. O primeiro é o Mapa Padrão, o segundo é o Mapa Satélite e o terceiro é o Mapa Relevo. Claro que cada um com
                     sua particularidade, mas de longe o que mais chama atenção é o mapa satélite, ele mostra com muita nitidez, Rios, Lagoas, Áreas desmatadas, Florestas, Parques e ruas para quem está vendo o mapa, trazendo uma sensação de liberdade visual encantadora, fica mais fácil identificar o que é um morro, uma planície e inclinações naturais, mas mais que isso, 
                     traz uma certa suavidade na hora de se guiar, enquanto  se está dirigindo e é preciso chegar a algum lugar.</p>
                 </div>
